@@ -88,11 +88,21 @@
 .button:hover{
     filter: brightness(80%);
     background-color: maroon;
+    cursor: pointer;
 }
+
+#id1:hover{
+    cursor: pointer;
+}
+
+
+
+
 #id2:hover{
     filter: brightness(80%);
     background-color: maroon;
     border-color: maroon;
+    cursor: pointer;
 }
 
 .tags{
@@ -124,4 +134,5 @@
     font-size: large;
     background-color: rgb(18, 14, 14);
     color: white;
+    cursor: pointer;
 }
