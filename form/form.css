@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serifS;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:url("/form/image/pexels-mahima-518693-1250260.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+.formtitle{
+    text-align: center;
+    border-bottom: 2px solid white;
+}
+
+.container{
+    width: 100%;
+    max-width: 650px;
+    background-color: rgba(0.0,0.0,0.0,0.5);
+    padding: 28px;
+    margin: 0 28px;
+    border-radius: 10px;
+    box-shadow: inset -2px 2px 2px white;
+    color: beige;
+    font-weight: 600;
+   
+    
+}
+
+@media screen and (max-width:320px) {
+    body{
+        font-size: small;
+    }
+    
+}
+
+
+
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 15px;
+   
+
+}
+
+.btn input{
+        
+    display: block;
+    width: 100%;
+    padding: 25%;
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 10px;
+    border:none;
+    border-radius: 3px;
+    color: rgb(209, 209, 209);
+    background: rgba(63,114,76,0.7);
+    filter: brightness(120%);
+
+}
+
+.btn:hover{
+    transform: scale(1.025);
+    background: rgba(56,204,93,0.7);
+}
+
